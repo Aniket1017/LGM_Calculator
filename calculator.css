@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 30px;
+    color:lightsalmon;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator
+{
+    /* display:inherit; */
+    flex-direction: column;
+    background-color: rgb(19, 19, 19);
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    padding: 14px 3px;
+    margin-right:-268px;
+    margin-top: -216px;
+    height: 320px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+#screen
+{
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: right;
+    margin-bottom: 5px;
+    margin-right: 2px;
+    flex-basis: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-row
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    height: 50px;
+
+}
+
+.btn-row button
+{
+    display: inline-block;
+    width: 27%;
+    margin-right: 12px;
+    margin-bottom: 3px;
+    background-color: rgb(245, 97, 43);
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(11, 11, 11);
+    font-size: 20px;
+}
+
+.btn-row .opt
+{
+    margin-right: 6px;   
+    flex-basis: 12.14%;
+}
+
+.btn .num
+{
+    flex-basis: 24.28%;
+}
+
+#equ
+{
+    background-color: #9942f6;
+}
+#clr
+{
+    background-color: #9942f6;
+}
